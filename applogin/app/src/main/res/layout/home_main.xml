@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/tittle"/>
+
+
+    <EditText
+        android:id="@+id/namec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="name"
+        android:textSize="30sp"
+        android:padding="28dp" />
+    <EditText
+        android:id="@+id/nbrc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/namec"
+        android:hint="number"
+        android:textSize="30sp"
+        android:padding="28dp" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nbrc"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="add contact"
+        />
+
+    <Button
+        android:id="@+id/viewbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addbtn"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="view contacts"
+        />
+</RelativeLayout>
