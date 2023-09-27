@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "silicon-alpha-391713",
+  "private_key_id": "cd3392f01da646c5b742e5fb8d52844e3604f936",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3r3h0pxafyNtC\nRJlYueUI6zEIqdPulbICDveRvbUL6cpR9Vk6z2Nwz52FFLY5qXykycegoaqeZPND\nAqeRABdZiMBi2UwYJ3Q3/kfkCnliTCIXsKzmuPeBBzfc+WGA5VLhca8ETCvfDRO3\n3QPVCBMYg0zW0X4Wcms6DzL/B9JC2NbnS6gWauJvIlcOZ7ktUr5qXJeF054HduEl\nddqZPoP2iU6aRSTUQ+adqUJV+zZGWkTpVHlrHnOeVlXdFd6T/o3VJnXx7BlNOZbi\n2F9Di6lOOexKL1p56+F5n4aWGi5+Cb63KTmCQrD6JkVwVf+BaL/qwJYxbsTeJbi6\n8VSdq7yxAgMBAAECggEABfJsGSRB/fI7AY8uow4RM4/ISJBVhophjxIgmy8H/BrR\nkGPb88TMQpYxMpJiKDWj3cKz6DAlwc8xRkqRJedZqi4ckvK3tUo9N7Ufixs49PkT\nqz5OycFEL6DuAsUu7kU2cMq9RKuJ6dS+vj+dSLXURvFU0PlrPnMtxC1i7Hl6iewU\n3CLZS1Y1VGhprIXS6kE3+RcQFDfbpjKgM7XfJiffcANGxPrFirQkDxt06CO6l52Q\nd9gXdD181Zz9XdBE936MbC9JlfgdGmRsTvjVK5y0tyyDTC4DpLU9qQIkknWvyd/j\nsK1/7p088OtUmuEpIdfSIYbErs3F4tTu9ZXIPX+N4QKBgQDpgByYLNaxbCAGP+9l\nWv9fPS6Hue7NWIMAG9ZwwpiMusdfGmpAgOkb5YdWAWQk4Xr6Mx6DDfyGRrrSasrp\nCrw6ngUX+aW6fdmOlS47Bs+O+7cdwoO6cCwOLlO9xTfQIN+hX0pLvi6O3UiiZqql\ndueV6J/BPuHhpxXClL112hUC4QKBgQDJYosyEIiv1St+QyIATl6YVesKv3tZ/kU/\nfWTiW8jgJmYnTNCBeD6Um3X2e9SrmRSUX4AW4nWkjAd4CdhOasFIfKcwlsWakc87\n3zii8XDE6HAvQwEyLFCbqpL/Md85bftBnRJdqf9UStizymDPbVD5duiTTedr00SA\nFPcuTrPD0QKBgQCt76vdQ9Ft+uBkJ246Ly36EQY/Pqb/ukZjZ1k3SA4BDwWC95dc\nk2qSSEmnLIQf4QMNq9S3xUxt7fQu2DRson2SoLGkqWfl4ueUCdaVS76DgUhn18Tu\nta5rpeDlhSrNVB+iAuzCPVpLO9VmfFnzxf4/MjkG58O1pxRTjR8Q0jJCoQKBgHUK\noc2aEGbo5JtAVx2Ibq/ol28qtH0sK4Dn1t876vZjOtGycigdA3oJFDkJ5SNKF8zX\n6DDksuzMOXcJeb6xit4fHGg/6F6aSbAJXvhMjHbUhIbjUWmgmcSvETnh+VN+WR3c\nNRVcvLl3upRblYJYjUw/UJJ0H4DqS5CJHtO6B/5RAoGAHJySWaoVW4+Gqedeug3W\n57/b5lOrOgLmgUKNSSuQ/OdMfGHXH4Wpo7m9LMkby6mF6NPfK9i5N69yl+hqXeNO\n2gB8YRCkLnNI6uh9MtR5yP0JATjhu8Smw/s6YMkdPSCTElZ/eH72qirrsASjwUwa\nTr2dXKhOgtS4ruGNp0kTdfA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "loginappdrive@silicon-alpha-391713.iam.gserviceaccount.com",
+  "client_id": "104178512883870337217",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/loginappdrive%40silicon-alpha-391713.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

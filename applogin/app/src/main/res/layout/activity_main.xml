@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout tools:context=".MainActivity"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:text="logn IN"
+        android:gravity="center"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:id="@+id/signin"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Username"
+        android:padding="28dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:id="@+id/password"
+        android:drawableLeft="@drawable/ic_baseline_compass_calibration_24"
+        android:padding="28dp"
+
+        android:textColorHint="@color/white"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/username"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:id="@+id/rypassword"
+        android:drawableLeft="@drawable/ic_baseline_compass_calibration_24"
+        android:padding="28dp"
+
+        android:textColorHint="@color/white"
+        android:hint="retry password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/password"/>
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodePicker"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rypassword"
+        android:layout_marginTop="1dp"
+        app:ccp_areaCodeDetectedCountry="true"
+        app:ccp_autoDetectCountry="true"
+       >
+
+    </com.hbb20.CountryCodePicker>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:id="@+id/number"
+        android:drawableLeft="@drawable/ic_baseline_compass_calibration_24"
+        android:padding="28dp"
+        android:textColorHint="@color/white"
+        android:hint="phone number "
+        android:inputType="textPassword"
+        android:layout_below="@+id/countryCodePicker"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/login"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/number"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/design_default_color_secondary"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="sign in"
+        android:id="@+id/signbtn"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/design_default_color_secondary"
+        />
+
+    <TextView
+        android:id="@+id/others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/social"
+        android:gravity="center"
+        android:text="or sign in with" />
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/social"
+    android:layout_alignParentBottom="true">
+
+    <ImageView
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/insta"/>
+
+    <ImageView
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/fc"/>
+
+    <ImageView
+        android:layout_height="48dp"
+        android:layout_width="48dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/twit"/>
+
+</LinearLayout>
+
+</RelativeLayout>
